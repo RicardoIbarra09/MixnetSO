@@ -12,7 +12,7 @@ MixnetSO/
 ├── example/
 │ └── main.cpp
 └── README.md
-
+```
 
 ## Instrucciones de Uso
 
