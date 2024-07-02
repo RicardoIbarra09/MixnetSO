@@ -4,13 +4,15 @@
 
 ```plaintext
 MixnetSO/
-├── include/
-│ └── mixnet.h
-| └── json.hpp
-├── lib/
-│ └── libmixnet.so
 ├── example/
 │ └── main.cpp
+├── generadorVotos/
+│ └── generador_votos.py
+├── include/
+│ └── json.hpp
+│ └── mixnet.h
+├── lib/
+│ └── libmixnet.so
 └── README.md
 ```
 
