@@ -20,8 +20,23 @@ MixnetSO/
 
 - GCC (o cualquier compilador de C++ compatible)
 - OpenSSL
+- Python 3.10.*
 
 ### Compilar un Programa con la Biblioteca
+
+0. **Generar votos ficticios**
+
+    Ejecuta el script de python que se encuentra en el directorio "generadorVotos" de la siguiente manera:
+
+    ```sh
+    python3 generador_votos.py -n <número_de_votos> -o <ruta_votos>
+    ```
+    Por ejemplo:
+
+    ```sh
+    python3 generador_votos.py -n 1000 -o /home/usuario/votos
+    ```
+    Dónde *n* representa el número de votos a generar y -o la ruta al directorio donde se desean guardar los votos.
 
 1. **Copiar la Biblioteca y Archivos de Cabecera**
 
