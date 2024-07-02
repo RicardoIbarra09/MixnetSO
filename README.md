@@ -36,7 +36,7 @@ MixnetSO/
     ```sh
     python3 generador_votos.py -n 1000 -o /home/usuario/votos
     ```
-    Dónde *n* representa el número de votos a generar y -o la ruta al directorio donde se desean guardar los votos.
+    Donde `n` representa el número de votos a generar y `o` (output) representa la ruta al directorio donde se desean guardar los votos.
 
 1. **Copiar la Biblioteca y Archivos de Cabecera**
 
